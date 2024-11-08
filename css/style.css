@@ -1,0 +1,115 @@
+body{
+    position: relative;
+
+}
+
+.ico{
+    width: 75px;
+    height: 400px;
+    position: absolute;
+    z-index: 105;
+    right: 0;
+    position: fixed;
+    margin-right: 20px;
+    margin-top: 10px;
+    text-align: center;
+   
+}
+
+.ico i{
+     margin: 8px;
+    font-size: 50px;
+}
+
+.carousel {
+    width: 100%;
+}
+
+.back {
+    background-image: url(../images/asw.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.after{
+    position: relative;
+}
+.intro::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+   
+    width: 0;
+    height: 0;
+    opacity: 0;
+    background-color: rgb(181, 222, 255);
+}
+
+.intro:hover::after{
+    opacity: 0.5;
+    transition: 1s;
+    width: 100%;
+    height: 100%;
+}
+
+.intro::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    background-color: rgb(181, 212, 255);
+}
+
+.intro:hover::before{
+    opacity: 0.5;
+    transition: 1s;
+    width: 100%;
+    height: 100%;
+}
+
+
+.php{
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/405.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.round{
+    background-image: url(../images/gal.jpg);
+    background-size: cover;
+}
+
+.lin:hover{
+width: 160px;
+transition: 2s;
+
+} 
+
+
+.icon-ph{
+    width: 120px;
+    height: 120px;
+    border-radius: 150px;
+}
+
+.box{
+    box-shadow: 1px 1px 20px 1px white ;
+}
+
+h6:hover{
+    color: rgb(177, 173, 173);
+
+}
+
+ .modal-backdrop.show{
+    z-index: -1 !important;
+}
+
+
+

@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Boot </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+   <style>
+    body{
+        height: 8000px;
+      
+    }
+   </style>
+</head>
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="opacity: 0.8;">
+      <div class="ph"><img src="images/logo.jpg" alt="lo" style="height: 60px; width: 60px ; border-radius: 50%;"></div>
+        <a class="navbar-brand text-primary" href="#" style="margin-left:  20px;">EGYPT</a>
+        <div class="line" style="width: 1px; height: 60px ; background-color: black; margin-left: -10px ;"></div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">links</a>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle border border-info" href="#" role="button" data-toggle="dropdown" aria-expanded="false" style="border-radius: 10px;">
+                Trips
+              </a>
+              <div class="dropdown-menu" style="background-color: rgb(227, 229, 255);">
+                <a class="dropdown-item" href="#">Cairo</a>
+                <a class="dropdown-item" href="#"> Alex </a>
+                <a class="dropdown-item" href="#"> Giza </a>
+                <a class="dropdown-item" href="#"> Luxor </a>
+                <a class="dropdown-item" href="#"> Aswan </a>
+                <a class="dropdown-item" href="#"> Sharm Elshekh </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#"> more</a>
+              </div>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Call us</a>
+              </li>
+
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit" style="margin-left: -5px ;">Search</button>
+            <!-- <button class="btn btn-outline-primary my-2 my-sm-0" type="submit" style="margin-left: 5px;">log in</button> -->
+
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#exampleModal" style="margin-left: 5px;">
+   Log in
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel" >Log in</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <br>
+            <br>
+           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" style="width: 300px; height:40px ; margin-left: 20px; margin-top: 20px;">
+           <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div> 
+          <br>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <br>
+            <input type="password" class="form-control" id="exampleInputPassword1"  style="width: 300px; height:40px ; margin-left: 60px;">
+          </div> <br>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Remmber Me</label>
+          </div>
+          <button type="submit" class="btn btn-primary">log in </button>
+        </form>
+      </div>
+      <div class="modal-footer">
+         <button type="button" class="btn btn-primary">log in</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+          </form>
+        </div>
+      </nav>
+      <!-- nav bar -->
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////// -->
+ <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+
+      <!-- Slids -->
+      <div class="row">
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/cai.jpg" class="d-block w-100" alt="ca" style="width: 100%; height: 95vh;">
+            <div class="carousel-caption d-none d-md-block p-3 mb-2 text-dark" style="background-color: rgba(240, 222, 222, 0.486); border-radius: 20px;">
+              <h5>Cairo</h5>
+              <p style="font-weight: bold;">Cairo, Egypt sprawling capital, is set on the Nile River.</p>
+              <button class="btn btn-primary my-2 my-sm-0" type="submit" style="margin-left: -5px ;">Visit</button>
+            </div>
+          </div>
+
+
+          <div class="carousel-item">
+            <img src="images/giza.jpg" class="d-block w-100" alt="..." style="width: 100%; height: 100vh;">
+            <div class="carousel-caption d-none d-md-block text-dark" style="background-color: rgba(240, 222, 222, 0.486); border-radius: 20px;">
+              <h5>Giza</h5>
+              <p  style="font-weight: bold;">Giza is an Egyptian city on the west bank of the Nile, near Cairo</p>
+              <button class="btn btn-primary my-2 my-sm-0" type="submit" style="margin-left: -5px ;">Visit</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/alex.jpg" class="d-block w-100" alt="..." style="width: 100%; height: 100vh;">
+            <div class="carousel-caption d-none d-md-block text-dark" style="background-color: rgba(240, 222, 222, 0.486); border-radius: 20px;">
+              <h5>Alex</h5>
+              <p  style="font-weight: bold;">Alexandria is a Mediterranean port city in Egypt. During the Hellenistic period</p>
+              <button class="btn btn-primary my-2 my-sm-0" type="submit" style="margin-left: -5px ;">Visit</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/lux.jpg" class="d-block w-100" alt="..." style="width: 100%; height: 100vh;">
+            <div class="carousel-caption d-none d-md-block text-dark" style="background-color: rgba(240, 222, 222, 0.486); border-radius: 20px;">
+              <h5>Luxor</h5>
+              <p style="font-weight: bold;">Luxor is a city on the east bank of the Nile River in southern Egypt.</p>
+              <button class="btn btn-primary my-2 my-sm-0" type="submit" style="margin-left: -5px ;">Visit</button>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="images/sh.jpg" class="d-block w-100" alt="..." style="width: 100%; height: 100vh;">
+            <div class="carousel-caption d-none d-md-block text-dark" style="background-color: rgba(240, 222, 222, 0.486); border-radius: 20px;">
+              <h5>Sharm El Shakh</h5>
+              <p  style="font-weight: bold;">Sharm el-Sheikh is an Egyptian resort town between the desert of the Sinai Peninsula and the Red Sea. </p>
+              <button class="btn btn-primary my-2 my-sm-0" type="submit" style="margin-left: -5px ;">Visit</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div>
+
+
+
+      <div class="ico">
+        <button class="text-primary" style="background: none; border: none;"> <i class="fa-brands fa-facebook"></i> </button>
+        
+        <br>
+        <button class="text-primary" style="background: none; border: none;"> <i class="fa-brands fa-twitter"></i> </button>
+        
+        <br>
+        <button class="text-primary" style="background: none; border: none;">  <i class="fa-brands fa-instagram"></i> </button>
+       
+        <br>
+        <button class="text-primary" style="background: none; border: none;">  <i class="fa-brands fa-linkedin"></i> </button>
+       
+        <br>
+        <button class="text-primary" style="background: none; border: none;">   <i class="fa-brands fa-square-whatsapp"></i>  </button>
+      
+      </div>
+
+    </div><!-- row -->
+
+    <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+<br>
+<!-- jumb -->
+<div>
+     <div class="bg-secondry col-lg-12 col-sm-12" style="width: 100%; height: 400px;">
+    <div class="jumbotron bg-secondry" style="height: 300px; width: 100%; border-radius: 20px; margin-top: -10px;">
+     <h4>WELcome</h4>
+      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </div>
+    <hr style="background-color: black;">
+  </div> 
+
+  <div class="jumbotron jumbotron-fluid col-lg-12 col-sm-12" style="height: 300px; border-radius: 20px; width: 100%; margin-top: -40px;">
+    <div class="container text-center" style="margin-top: 2px; ">
+      <h1 class="display-4" style="font-weight:200;">Popular Destination in Egypt</h1>
+      
+    </div>
+  </div>
+  <!-- ////////////////////////////////////////////// ///////////////////////////////////////////////////-->
+   
+  <!-- ////////////////////////////////////////////// ///////////////////////////////////////////////////-->
+<hr>
+<!-- lissssssssssssssssssssst -->
+  <p style="margin-top: -10px;"> 
+    <button class="btn btn-light text-left text-info" style="width: 100%; height: 60px; font-size: 30px;" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
+      Giza City
+    </button>
+  </p>
+  <div class="collapse" id="collapseExample1" style="transition: 0.5s;">
+    <div class="card card-body">
+      The Giza Plateau is home to iconic Egyptian monuments, including 3 tall pyramids built as royal mausoleums around the 26th century B.C. The largest, the Great Pyramid, is King Khufu’s tomb. The Great Sphinx is a vast sculpture of a man’s head on a lion’s body.
+    </div>
+  </div>
+<hr>
+
+  <p style="margin-top: -40px;"> 
+    <button class="btn btn-light text-left text-info" style="width: 100%;  height: 60px; font-size: 30px;" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+      Luxor City
+    </button>
+  </p>
+  <div class="collapse" id="collapseExample2" style="transition: 0.5s;">
+    <div class="card card-body">
+      It's on the site of ancient Thebes, the pharaohs’ capital at the height of their power, during the 16th–11th centuries B.C. Today's city surrounds 2 huge, surviving ancient monuments: graceful Luxor Temple and Karnak Temple, a mile north. 
+    </div>
+  </div>
+<hr>
+
+  <p style="margin-top: -40px;"> 
+    <button class="btn btn-light text-left text-info" style="width: 100%;  height: 60px; font-size: 30px;" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    Sinai
+    </button>
+  </p>
+  <div class="collapse" id="collapseExample" style="transition: 0.5s;">
+    <div class="card card-body">
+      Egypt’s Sinai Peninsula is a sparsely populated desert region between the Red Sea and the Mediterranean Sea.
+    </div>
+
+  </div>
+ <!-- /////////////////////////////////////////////////////////////////////////////////////////////// -->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<!-- traslanaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaat -->
+
+     <hr style="background-color: black;">
+     
+     <button class="btn btn-dark" style=" width: 100%; height: 70px; margin-top: -10px; font-size: px;">Translate From Arabic To English</button>
+     <form class="bg-secondry">
+      
+      
+      <div class="form-group" style="width: 100%; height: 250px; background-color: rgb(182, 182, 255); border-radius: 10px;">
+        <span style="font-size: 20px; font-weight: bold; margin-left: 10px;">Write and Translate</span> <span> Press Here</span>
+        <br>
+      <!-- Button trigger modal -->
+       <br>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-toggle="tooltip" data-placement="right" title="Copy to Clipboard" data-target="#staticBackdrop" style="margin-left: 40px;">
+ Copy
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+     
+      <div class="modal-body">
+        <span >تم نسخ النص </span>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+        <label for="exampleFormControlTextarea1"></label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" style="width: 80%; margin-left: 40px; margin-top: -20px;" placeholder="enter your message"></textarea>
+      </div>
+    </form>
+
+    <!--///////////////////////-->
+    <hr style="background-color: black;">
+     
+     <button class="btn btn-dark" style=" width: 100%; height: 70px; margin-top: -10px; font-size: px;">Translate From Arabic To French </button>
+     <form class="bg-secondry">
+      
+      
+      <div class="form-group" style="width: 100%; height: 250px; background-color: rgb(182, 182, 255); border-radius: 10px;">
+        <span style="font-size: 20px; font-weight: bold; margin-left: 10px;">Write and Translate</span> <span> Press Here</span>
+        <br>
+      <!-- Button trigger modal -->
+       <br>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-toggle="tooltip" data-placement="right" title="Copy to Clipboard" data-target="#staticBackdrop" style="margin-left: 40px;">
+ Copy
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+     
+      <div class="modal-body">
+        <span >تم نسخ النص </span>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+        <label for="exampleFormControlTextarea1"></label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" style="width: 80%; margin-left: 40px; margin-top: -20px;" placeholder="enter your message"></textarea>
+      </div>
+    </form>
+    <!-- /////////////////////////////////// -->
+    <hr style="background-color: black;">
+     
+    <button class="btn btn-dark" style=" width: 100%; height: 70px; margin-top: -10px; font-size: px;">Translate From Arabic To German</button>
+    <form class="bg-secondry">
+     
+     
+     <div class="form-group" style="width: 100%; height: 250px; background-color: rgb(182, 182, 255); border-radius: 10px;">
+       <span style="font-size: 20px; font-weight: bold; margin-left: 10px;">Write and Translate</span> <span> Press Here</span>
+       <br>
+     <!-- Button trigger modal -->
+      <br>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-toggle="tooltip" data-placement="right" title="Copy to Clipboard" data-target="#staticBackdrop" style="margin-left: 40px;">
+Copy
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal-dialog">
+   <div class="modal-content">
+    
+     <div class="modal-body">
+       <span >تم نسخ النص </span>
+     </div>
+     <div class="modal-footer">
+       <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
+       
+     </div>
+   </div>
+ </div>
+</div>
+<br>
+       <label for="exampleFormControlTextarea1"></label>
+       <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" style="width: 80%; margin-left: 40px; margin-top: -20px;" placeholder="enter your message"></textarea>
+     </div>
+   </form>
+
+   <!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////////////// -->\
+     <!-- PHOTOTOTOTOT -->
+    <hr style="background-color: black;">
+    <div class="container-fluid back  bg-dark" style="width: 100%; height: 300px; margin-top: -10px;" ></div>
+  <!-- ///////////////////////////////////////////////////////////////////////////////////////////////// -->
+   <!-- tilele cRD -->
+   <div class="title bg-dark" style="width: 100%; height: 100px; text-align: center;" > <br> <h2 style="text-transform: uppercase; color: #ffffff;">Popular Destination in Egypt</h2></div>
+
+<!-- ////////////////////////////////////// -->
+ <!-- card -->
+<div class="container-fluid after bg-light" style="margin: auto;">
+  <div class="row" style="margin-left: 80px ;">
+<!-- 1 -->
+<div class="card intro col-lg-3 p-1 m-4 ml-2 col-sm-12" style="height: 530px;">
+  <img src="images/cai.jpg" class="card-img-top" alt="ph" style="height: 400px;">
+  <div class="card-body" style="margin-top: -20px;">
+    <h3 class="card-title">Cairo <button class="btn btn-primary" style="font-size: 10px; font-weight: bold; margin-left: 40px; ">know more</button></h3>
+    <p class="card-text"> <span style="margin-left: -20px;">Capital of Egypt</span></p>
+   
+  </div>
+</div>
+
+<div class="card intro col-lg-3 p-1 m-4 ml-2 col-sm-12" style="height: 530px;">
+  <img src="images/alex.jpg" class="card-img-top" alt="ph" style="height: 400px;">
+  <div class="card-body" style="margin-top: -20px;">
+    <h3 class="card-title" style="margin-top: -0x;">Alex <button class="btn btn-primary" style="font-size: 10px; font-weight: bold; margin-left: 20px; ">know more</button></h3>
+    <p class="card-text"> <span style="margin-left: -20px;">Capital of White Sea</span></p>
+   
+  </div>
+</div>
+
+
+<div class="card intro col-lg-3 p-1 m-4 ml-2 col-sm-12" style="height: 530px;">
+  <img src="images/nile.jpg" class="card-img-top" alt="ph" style="height: 400px;">
+  <div class="card-body" style="margin-top: -20px;">
+    <h3 class="card-title" style="margin-top: -0x;">Aswan <button class="btn btn-primary" style="font-size: 10px; font-weight: bold; margin-left: 20px; ">know more</button></h3>
+    <p class="card-text"> <span style="margin-left: -20px;">Capital of Nile</span></p>
+   
+  </div>
+</div>
+
+
+<div class="card intro col-lg-3 p-1 m-4 ml-2 col-sm-12" style="height: 530px;">
+  <img src="images/lux.jpg" class="card-img-top" alt="ph" style="height: 400px;">
+  <div class="card-body" style="margin-top: -20px;">
+    <h3 class="card-title" style="margin-top: -0x;">Luxor <button class="btn btn-primary" style="font-size: 10px; font-weight: bold; margin-left: 20px; ">know more</button></h3>
+    <p class="card-text"> <span style="margin-left: -20px;">Capital of History</span></p>
+   
+  </div>
+</div>
+
+
+<div class="card intro col-lg-3 p-1 m-4 ml-2 col-sm-12" style="height: 530px;">
+  <img src="images/giza.jpg" class="card-img-top" alt="ph" style="height: 400px;">
+  <div class="card-body" style="margin-top: -20px;">
+    <h3 class="card-title" style="margin-top: -0x;">Giza <button class="btn btn-primary" style="font-size: 10px; font-weight: bold; margin-left: 20px; ">know more</button></h3>
+    <p class="card-text"> <span style="margin-left: -20px;">Giza pyramids</span></p>
+   
+  </div>
+</div>
+
+<div class="card intro col-lg-3 p-1 m-4 ml-2 col-sm-12" style="height: 530px;">
+  <img src="images/sh.jpg" class="card-img-top" alt="ph" style="height: 400px;">
+  <div class="card-body" style="margin-top: -20px;">
+    <h3 class="card-title" style="margin-top: -0x;">Sharm<button class="btn btn-primary" style="font-size: 5px; font-weight: bold; margin-left: 20px; ">know more</button></h3>
+    <p class="card-text"> <span style="margin-left: -20px;">Capital of Egypt</span></p>
+   
+  </div>
+</div>
+    
+
+ </div> <!-- row -->
+ 
+
+ <div class="container xec bg-dark">
+  <div class="row bg-light">
+
+    
+<div class="card intro col-3.5 p-1 m-4 ml-2 bg-light" style="height: 530px; left: -1%;">
+  <img src="images/gal.jpg" class="card-img-top" alt="ph" style="height: 400px; width: 300px;">
+  <div class="card-body" style="margin-top: -20px; width: 300px;">
+    <h3 class="card-title" style="margin-left: -5x;">AlGalah <button class="btn btn-primary" style="font-size: 10px; font-weight: bold; margin-left: 0px; ">know more</button></h3>
+    <p class="card-text"> <span style="margin-left: -10px;">Red Sea</span></p>
+   
+  </div>
+</div>
+
+
+
+<div class="card intro col-3.5 p-1 m-4 ml-2 bg-light" style="height: 530px;  right:-30%; ">
+  <img src="images/lux.jpg" class="card-img-top" alt="ph" style="height: 400px; width: 300px;">
+  <div class="card-body" style="margin-top: -20px;">
+    <h3 class="card-title" style="margin-top: -0x;">Luxor <button class="btn btn-primary" style="font-size: 10px; font-weight: bold; margin-left: 30px; ">know more</button></h3>
+    <p class="card-text"> <span style="margin-left: -10px;">Ancient</span></p>
+   
+  </div>
+</div>
+      
+  </div>
+</div>
+</div><!-- cont -->
+  
+ <hr style="background-color: black;">
+<!-- ////////////////////////////////////// -->
+
+<div class="php"></div>
+
+<div class="title bg-dark" style="width: 99%; height: 100px; text-align: center; border-radius: 10px; margin: auto;" > <br> <h2 style="text-transform: uppercase; color: #ffffff;">Thank For</h2></div>
+<br>
+<!-- //////////////////////////////////////////////////////////////////////// -->
+
+<!-- thankkkkkkkkkkkkkkkkkkkk card -->
+
+<div class="container-fluid thank  ">
+  <div class="row">
+    <div class="card bg-primary text-white m-3" style="width: 400px; height:367px; position: relative; border-radius: 20px;">
+      <img class="card-img" src="images/giza.jpg" alt="Card image" style="position: relative; border-radius: 20px;">
+              <div class="over" style="width: 100%; height: 100%; position: absolute; background-color: rgba(0, 0, 0, 0.5); border-radius: 20px;"></div> 
+      <div class="card-img-overlay">
+        <h5 class="card-title">All Thanks and Appreciation</h5>
+        <p class="card-text"><i class="fa-solid fa-clock"></i> Novamber 2,2024</p>
+     
+      </div>
+      <div class="round" style="width: 100px; height: 100px; border-radius: 50%; position: absolute; bottom: 0; margin-bottom:60px; margin-left: 10px;">
+        <h4 style="font-size: 1px; margin-top: 100px; margin-left: 10px;">Yasser
+          <br>
+        Developer
+        </h4>
+    
+      </div>
+      
+    </div>
+
+
+    <div class="card bg-primary text-white m-3" style="width: 400px; height:367px; position: relative; border-radius: 20px;">
+      <img class="card-img" src="images/giza.jpg" alt="Card image" style="position: relative; border-radius: 20px;">
+              <div class="over" style="width: 100%; height: 100%; position: absolute; background-color: rgba(0, 0, 0, 0.5); border-radius: 20px;"></div> 
+      <div class="card-img-overlay">
+        <h5 class="card-title">All Thanks and Appreciation</h5>
+        <p class="card-text"><i class="fa-solid fa-clock"></i> Novamber 2,2024</p>
+     
+      </div>
+      <div class="round" style="width: 100px; height: 100px; border-radius: 50%; position: absolute; bottom: 0; margin-bottom:60px; margin-left: 10px;">
+        <h4 style="font-size: 1px; margin-top: 100px; margin-left: 10px;">Yasser
+          <br>
+        Developer
+        </h4>
+    
+      </div>
+      
+    </div>
+   
+
+    <div class="card bg-primary text-white m-3" style="width: 400px; height:367px; position: relative; border-radius: 20px;">
+      <img class="card-img" src="images/giza.jpg" alt="Card image" style="position: relative; border-radius: 20px;">
+              <div class="over" style="width: 100%; height: 100%; position: absolute; background-color: rgba(0, 0, 0, 0.5); border-radius: 20px;"></div> 
+      <div class="card-img-overlay">
+        <h5 class="card-title">All Thanks and Appreciation</h5>
+        <p class="card-text"><i class="fa-solid fa-clock"></i> Novamber 2,2024</p>
+     
+      </div>
+      <div class="round" style="width: 100px; height: 100px; border-radius: 50%; position: absolute; bottom: 0; margin-bottom:60px; margin-left: 10px;">
+        <h4 style="font-size: 1px; margin-top: 100px; margin-left: 10px;">Yasser
+          <br>
+        Developer
+        </h4>
+    
+      </div>
+      
+    </div>
+   
+  </div><!-- row -->
+</div><!-- cont -->
+<br>
+<br>
+<hr>
+<!-- ////////////////////////////////////////////////////////////////////////////////////// -->
+
+<!-- podcats -->
+
+<div class="text-center">
+  <h3> Egypt News</h3>
+  
+ </div> 
+ <br>
+  <div class="container">
+    
+    <div class="card  bg-info shadow-lg rounded ">
+      <div class="row no-gutters ">
+        
+        <div class="col-7 " style="height: 400px;">
+          <div class="card-body">
+            <br>
+            <h3 class="card-title"> Podcast About Cairo </h3>
+            
+            <div class="lin" style="background-color: rgb(255, 255, 255); width: 140px; height: 2px; margin-top: -10px; margin-left: 10px;"></div>
+             <span style="font-size: smaller; font-weight: bold;" >Sun,Novamber 3sd,2024</span>
+            <br>
+          <p class="card-text">Cairo, Egypt’s sprawling capital, is set on the Nile River. At its heart is Tahrir Square and the vast Egyptian Museum, a trove of antiquities including royal mummies and gilded King Tutankhamun artifacts.</p>
+            
+            <form>
+            <br>
+            
+            <br> 
+            <br>
+            <button type="submit" class="btn btn-light" style="height: 40px; text-align:justify;"> <i class="fa-solid fa-thumbs-up"></i> Podcast </button>
+            <button type="submit" class="btn btn-light" style="height: 40px; text-align:justify;" > <i class="fa-solid fa-clock"></i> 55mins </button>
+              <button type="submit" class="btn btn-light"  style="height: 40px; text-align:justify;" > <i class="fa-solid fa-play"></i> Play</button>
+            </form>
+             <!-- contact -->
+          </div>
+        </div>
+        <div class="pty" style="margin-left: 10px; clip-path: polygon(16% 0, 100% 0, 100% 100%, 37% 100%);">
+          <img src="images/cai.jpg" alt="..." style="width: 450px;" height="100%; border-radius:20px;">
+        </div>
+      </div>
+    </div>
+<!-- ///////////////////////////////////////////////////// -->
+<br>
+ <br>
+
+ <div class="card  bg-info shadow-lg  rounded ">
+  <div class="row no-gutters text-dark">
+    
+    <div class="col-7" style="height: 400px;">
+      <div class="card-body">
+        <br>
+        <h3 class="card-title"> Podcast About Giza </h3>
+        
+        <div class="lin" style="background-color: rgb(252, 208, 13); width: 140px; height: 2px; margin-top: -10px; margin-left: 10px;"></div>
+         <span style="font-size: smaller; font-weight: bold;" >Sun,Novamber 3sd,2024</span>
+        <br>
+      <p class="card-text">Giza, Egypt’s sprawling capital, is set on the Nile River. At its heart is Tahrir Square and the vast Egyptian Museum, a trove of antiquities including royal mummies and gilded King Tutankhamun artifacts.</p>
+        
+        <form>
+        <br>
+        
+        <br> 
+        <br>
+        <button type="submit" class="btn btn-warning" style="height: 40px; text-align:justify;"> <i class="fa-solid fa-thumbs-up"></i> Podcast </button>
+        <button type="submit" class="btn btn-warning" style="height: 40px; text-align:justify;" > <i class="fa-solid fa-clock"></i> 55mins </button>
+          <button type="submit" class="btn btn-warning"  style="height: 40px; text-align:justify;" > <i class="fa-solid fa-play"></i> Play</button>
+        </form>
+         <!-- contact -->
+      </div>
+    </div>
+    <div class="pty" style="margin-left: 10px; clip-path: polygon(16% 0, 100% 0, 100% 100%, 37% 100%);">
+      <img src="images/giza.jpg" alt="..." style="width: 450px;" height="100%; border-radius:20px;">
+    </div>
+  </div>
+</div>
+<br>
+<br>
+ <div class="card shadow-lg  bg-info rounded">
+  <div class="row no-gutters text-dark">
+    
+    <div class="col-7" style="height: 400px;">
+      <div class="card-body">
+        <br>
+        <h3 class="card-title"> Podcast About Giza </h3>
+        
+        <div class="lin" style="background-color: black; width: 140px; height: 2px; margin-top: -10px; margin-left: 10px;"></div>
+         <span style="font-size: smaller; font-weight: bold;" >Sun,Novamber 3sd,2024</span>
+        <br>
+      <p class="card-text">Giza, Egypt’s sprawling capital, is set on the Nile River. At its heart is Tahrir Square and the vast Egyptian Museum, a trove of antiquities including royal mummies and gilded King Tutankhamun artifacts.</p>
+        
+        <form>
+        <br>
+        
+        <br> 
+        <br>
+        <button type="submit" class="btn btn-dark" style="height: 40px; text-align:justify;"> <i class="fa-solid fa-thumbs-up"></i> Podcast </button>
+        <button type="submit" class="btn btn-dark" style="height: 40px; text-align:justify;" > <i class="fa-solid fa-clock"></i> 55mins </button>
+          <button type="submit" class="btn btn-dark"  style="height: 40px; text-align:justify;" > <i class="fa-solid fa-play"></i> Play</button>
+        </form>
+         <!-- contact -->
+      </div>
+    </div>
+    <div class="pty" style="margin-left: 10px; clip-path: polygon(16% 0, 100% 0, 100% 100%, 37% 100%);">
+      <img src="images/giza.jpg" alt="..." style="width: 450px;" height="100%; border-radius:20px;">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  </div><!-- cont -->
+  <hr style="background-color: black;">
+<!-- /////////////////////////////////////////////////////////////////////////////////// -->
+
+<div class="container" >
+  <div class="row p-1" style="margin:0px 50px;">
+    <div class="bg-light shadow-lg rounded m-2 " style="text-align: center; border-radius: 50px; width: 220px; height: 220px;">
+      <h5 class="text-primary">Subscrip Now</h5>
+      <img class=" icon-ph" src="images/insta.png" alt="log" >
+      <br>
+      <span class="text-primary" >Go to Link</span>
+      
+    </div>
+
+    <div class="bg-light shadow-lg rounded m-2 " style="text-align: center; border-radius: 50px; width: 220px; height: 220px;">
+      <h5 class="text-primary">Subscrip Now</h5>
+      <img class="icon-ph" src="images/face.png" alt="log" >
+      <br>
+      <span class="text-primary" >Go to Link</span>
+      
+    </div>
+
+    <div class="bg-light shadow-lg rounded m-2 " style="text-align: center; border-radius: 50px; width: 220px; height: 220px;">
+      <h5 class="text-primary">Subscrip Now</h5>
+      <img class=" icon-ph" src="images/tele.png" alt="log" >
+      <br>
+      <span class="text-primary" >Go to Link</span>
+      
+    </div>
+
+    <div class="bg-light shadow-lg rounded m-2 " style="text-align: center; border-radius: 50px; width: 220px; height: 220px;">
+      <h5 class="text-primary">Subscrip Now</h5>
+      <img class=" icon-ph" src="images/what.png" alt="log" >
+      <br>
+      <span class="text-primary" >Go to Link</span>
+      
+    </div>
+  </div><!-- row -->
+</div><!-- cont -->
+
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+ <!-- /////////////////////////////////////////////////////////////////// -->
+
+ <!-- //////////////////////*************************************/////////////////////////////////////// -->
+
+ <div class="container-fluid bg-info" style="height: 500px;">
+  <br>
+  <div class="row" style="margin: 0 15px;">
+    <div   style="width: 450px; height: 1px ; background-color:white; position: absolute; left: 0;"></div>
+    <div   style="width: 400px; height: 1px ; background-color:white; position: absolute; left: 35%;"></div>
+    <div  style="width: 450px; height: 1px ; background-color:white; position: absolute; right: 0;"></div>
+  </div><!-- row line -->
+
+  <div class="row" style="margin:auto; margin-left: 50px;">
+    <div class="col-4" style="margin: auto;"> 
+      <br>
+      <div class="text-center">
+    
+      <img class="box" src="images/logo.jpg" alt="#" style="width: 80px; height: 80px; border-radius: 50%;">
+      <span class="text-light">Important Link</span>
+    </div>
+    </div>
+
+    <div class="col-4"> 
+      <br>
+      <div class="text-center">
+     
+      <img class="box" src="images/logo.jpg" alt="#" style="width: 80px; height: 80px; border-radius: 50%;">
+      <span class="text-light">vision</span>
+    </div>
+    </div>
+
+    <div class="col-4"> 
+      <br>
+      <div class="text-center">
+     
+      <img class="box" src="images/logo.jpg" alt="#" style="width: 80px; height: 80px; border-radius: 50%;">
+      <span class="text-light">Good Campany</span>
+    </div>
+    </div>
+    <!-- <div class="col-4">test</div>
+    <div class="col-4">test</div> -->
+  </div>
+  <br>
+  <div class="row" style="margin: 0 15px;">
+    <div   style="width: 450px; height: 1px ; background-color: white; position: absolute; left: 0;"></div>
+    <div   style="width: 400px; height: 1px ; background-color: white; position: absolute; left: 35%;"></div>
+    <div  style="width: 450px; height: 1px ; background-color: white; position: absolute; right: 0;"></div>
+  </div><!-- row line -->
+
+   <div class="row rowh"  style="margin:auto; ">
+    <div class="col-4 text-light">
+      <br>   
+         <div class="text-center"><h6>Tel:01010010101</h6>
+            <h6>Address:Egypt</h6>
+            <h6>Fax:02350478</h6>        
+         </div>
+    </div>
+
+    <div class="col-4 text-light">
+      <br>   
+         <div class="text-center" ><h6>Serives for All</h6>
+            <h6>Provide Best Serives</h6>
+            <h6>You will be  better than bafore</h6>        
+         </div>
+    </div>
+
+    <div class="col-4 text-light">
+      <br>   
+         <div class="text-center" ><h6>Visit Us</h6>
+            <h6>Take look</h6>
+            <h6>Your Healthy is more Important</h6>        
+         </div>
+    </div>
+    </div><!-- rwo -->
+    <hr style="background-color: rgb(255, 255, 255); width: 100%;">
+
+    <!-- ///////////////////////////////////////////// -->
+
+      <!-- Copyright -->
+      <div
+      class="text-center p-3 col-sm-12"
+      style="background-color: rgba(0, 0, 0, 0.2)"
+      >
+   © 2020 Copyright:
+   <a class="text-white" href="https://mdbootstrap.com/"
+      >Yasser Mohamed/Egypt.com</a
+     >
+ </div>
+ <!-- Copyright -->
+</footer>
+<!-- Footer -->
+<hr style="background-color: #ffffff;">
+</div>
+ 
+
+
+
+
+
+
+
+
+
+
+
+ </div><!-- cont final -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
