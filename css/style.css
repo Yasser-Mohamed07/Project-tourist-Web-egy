@@ -2,13 +2,16 @@ body{
     position: relative;
 
 }
+/* .navp{
+    padding-left: 0px;
+} */
 
 .ico{
     width: 75px;
     height: 400px;
     position: absolute;
     z-index: 105;
-  right: 50%;
+    right: 1%;
     position: fixed;
     margin-top: 100px;
     text-align: center;
